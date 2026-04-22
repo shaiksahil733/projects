@@ -1,0 +1,7 @@
+Order of Creation
+1. VPC
+2. Internet Gateway
+3. Route Table
+4. Route Table Association
+5. Subnets
+6. Importing Key Pairs
