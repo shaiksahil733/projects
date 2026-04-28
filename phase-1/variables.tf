@@ -109,3 +109,12 @@ variable "ntier_db" {
   })
 
 }
+
+variable "key_pair" {
+  type = object({
+    name             = string
+    public_key_path  = optional(string, "~/.ssh/id_rsa.pub")
+    private_key_path = optional(string, "~/.ssh/id_rsa")
+  })
+
+}

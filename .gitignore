@@ -40,3 +40,4 @@ plan.out
 *.swp
 .DS_Store
 Thumbs.db
+*/installations.txt
