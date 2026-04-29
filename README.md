@@ -26,21 +26,23 @@ Kubernetes Deployment Update
 Rolling Update
 ↓
 Live Application
+```
 
 ---
 
-
 ## 🛠️ Tech Stack
 
-- GitHub  
-- Azure DevOps Pipelines  
-- Docker  
-- DockerHub  
-- AWS EC2  
-- Kubernetes (KIND)  
-- Python Flask  
-- Linux  
+- GitHub
+- Azure DevOps Pipelines
+- Docker
+- DockerHub
+- AWS EC2
+- Kubernetes (KIND - Kubernetes IN Docker)
+- Python Flask
+- Linux
 - YAML
+
+---
 
 ## 📂 Project Structure
 
@@ -54,26 +56,28 @@ Live Application
 ├── azure-pipelines.yml
 ├── Terraform/
 └── README.md
+```
 
+---
 
 ## ⚙️ Implemented Features
 
-- Automated CI/CD pipeline using Azure DevOps YAML  
-- Docker image build and push to DockerHub  
-- Secure SSH deployment to AWS EC2  
-- Kubernetes rolling updates with zero downtime  
-- NodePort service exposure for browser access  
-- Version-based image tagging for rollback support  
+- Automated CI/CD pipeline using Azure DevOps YAML
+- Docker image build and push to DockerHub
+- Secure SSH deployment to AWS EC2
+- Kubernetes rolling updates with zero downtime
+- NodePort service exposure for browser access
+- Version-based image tagging for rollback support
 
 ---
 
 ## 📈 Project Impact
 
-- Reduced manual deployment effort by **90%**  
-- Deployment pipeline completed in **under 45 seconds**  
-- Achieved **zero downtime deployments**  
-- Managed **2 running replicas** in Kubernetes  
-- Integrated **5+ DevOps tools** in one workflow  
+- Reduced manual deployment effort by **90%**
+- Deployment pipeline completed in **under 45 seconds**
+- Achieved **zero downtime deployments**
+- Managed **2 running replicas** in Kubernetes
+- Integrated **5+ DevOps tools** in one workflow
 
 ---
 
@@ -99,24 +103,26 @@ Live Application
 Welcome to Sahil DevOps App
 Version 2.0
 Rolling Update Successful
+```
 
+---
 
 ## 🔐 Security Used
 
-- Azure DevOps Variable Groups  
-- Secure Files for SSH Key  
-- DockerHub Service Connection  
-- SSH Service Connection  
+- Azure DevOps Variable Groups
+- Secure Files for SSH Key
+- DockerHub Service Connection
+- SSH Service Connection
 
 ---
 
 ## 🚀 Future Enhancements
 
-- Prometheus Monitoring  
-- Grafana Dashboards  
-- Helm Charts  
-- Terraform Full Infra Automation  
-- ArgoCD GitOps Deployment  
+- Prometheus Monitoring
+- Grafana Dashboards
+- Helm Charts
+- Terraform Full Infra Automation
+- ArgoCD GitOps Deployment
 
 ---
 
