@@ -6,8 +6,8 @@ app = Flask(__name__)
 def home():
     return """
     <h1>Welcome to Sahil DevOps App</h1>
-    <h2>Version 1.0</h2>
-    <p>Deployment Successful</p>
+    <h2>Version 2.0</h2>
+    <p>Rolling Update Successful</p>
     """
 
 if __name__ == '__main__':
