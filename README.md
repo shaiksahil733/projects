@@ -27,6 +27,8 @@ Rolling Update
 ↓
 Live Application
 
+---
+
 
 ## 🛠️ Tech Stack
 
