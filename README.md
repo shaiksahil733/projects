@@ -84,16 +84,16 @@ Live Application
 ## 📸 Screenshots
 
 ### Azure DevOps Pipeline Success
-![Pipeline Success](enterprise-1.PNG)
+![Pipeline Success](images/enterprise-1.PNG)
 
 ### DockerHub Image Tags
-![DockerHub Tags](enterprise-2.PNG)
+![DockerHub Tags](images/enterprise-2.PNG)
 
 ### Kubernetes Pods Running
-![Kubernetes Pods](enterprise-3.PNG)
+![Kubernetes Pods](images/enterprise-3.PNG)
 
 ### Live Application in Browser
-![Live App](enterprise-4.PNG)
+![Live App](images/enterprise-4.PNG)
 
 ---
 
