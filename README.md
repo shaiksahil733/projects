@@ -26,17 +26,23 @@ Kubernetes Deployment Update
 Rolling Update
 ↓
 Live Application
-🛠️ Tech Stack
-GitHub
-Azure DevOps Pipelines
-Docker
-DockerHub
-AWS EC2
-Kubernetes (KIND)
-Python Flask
-Linux
-YAML
-📂 Project Structure
+
+
+## 🛠️ Tech Stack
+
+- GitHub  
+- Azure DevOps Pipelines  
+- Docker  
+- DockerHub  
+- AWS EC2  
+- Kubernetes (KIND)  
+- Python Flask  
+- Linux  
+- YAML
+
+## 📂 Project Structure
+
+```text
 ├── app.py
 ├── requirements.txt
 ├── Dockerfile
@@ -46,39 +52,72 @@ YAML
 ├── azure-pipelines.yml
 ├── Terraform/
 └── README.md
-⚙️ Implemented Features
-Automated CI/CD pipeline using Azure DevOps YAML
-Docker image build and push to DockerHub
-Secure SSH deployment to AWS EC2
-Kubernetes rolling updates with zero downtime
-NodePort service exposure for browser access
-Version-based image tagging for rollback support
-📈 Project Impact
-Reduced manual deployment effort by 90%
-Deployment pipeline completed in under 45 seconds
-Achieved zero downtime deployments
-Managed 2 running replicas in Kubernetes
-Integrated 5+ DevOps tools in one workflow
-📸 Screenshots
-Azure DevOps Pipeline Success
-DockerHub Image Tags
-Kubernetes Pods Running
-Live Application in Browser
-🌐 Live Output
+
+
+## ⚙️ Implemented Features
+
+- Automated CI/CD pipeline using Azure DevOps YAML  
+- Docker image build and push to DockerHub  
+- Secure SSH deployment to AWS EC2  
+- Kubernetes rolling updates with zero downtime  
+- NodePort service exposure for browser access  
+- Version-based image tagging for rollback support  
+
+---
+
+## 📈 Project Impact
+
+- Reduced manual deployment effort by **90%**  
+- Deployment pipeline completed in **under 45 seconds**  
+- Achieved **zero downtime deployments**  
+- Managed **2 running replicas** in Kubernetes  
+- Integrated **5+ DevOps tools** in one workflow  
+
+---
+
+## 📸 Screenshots
+
+### Azure DevOps Pipeline Success
+![Pipeline Success](enterprise-1.PNG)
+
+### DockerHub Image Tags
+![DockerHub Tags](enterprise-2.PNG)
+
+### Kubernetes Pods Running
+![Kubernetes Pods](enterprise-3.PNG)
+
+### Live Application in Browser
+![Live App](enterprise-4.PNG)
+
+---
+
+## 🌐 Live Output
+
+```text
 Welcome to Sahil DevOps App
 Version 2.0
 Rolling Update Successful
-🔐 Security Used
-Azure DevOps Variable Groups
-Secure Files for SSH Key
-DockerHub Service Connection
-SSH Service Connection
-🚀 Future Enhancements
-Prometheus Monitoring
-Grafana Dashboards
-Helm Charts
-Terraform Full Infrastructure Automation
-ArgoCD GitOps Deployment
-👨‍💻 Author
 
-Sahil Shaik
+
+## 🔐 Security Used
+
+- Azure DevOps Variable Groups  
+- Secure Files for SSH Key  
+- DockerHub Service Connection  
+- SSH Service Connection  
+
+---
+
+## 🚀 Future Enhancements
+
+- Prometheus Monitoring  
+- Grafana Dashboards  
+- Helm Charts  
+- Terraform Full Infra Automation  
+- ArgoCD GitOps Deployment  
+
+---
+
+## 👨‍💻 Author
+
+**Sahil Shaik**
